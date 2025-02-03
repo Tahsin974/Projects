@@ -1,0 +1,166 @@
+
+[
+    {
+      "id": 1,
+      "name": "Healthy Meal Plan",
+      "price": 12.50,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/87V0KKm/lunch1.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "lunch"
+    },
+    {
+      "id": 2,
+      "name": "Fried Chicken Bento",
+      "price": 18.99,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/vZLLSXh/lunch2.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "lunch"
+    },
+    {
+      "id": 3,
+      "name": "Tarragon-Rubbed-Salmon",
+      "price": 12.99,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/2h9kmZx/lunch3.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "lunch"
+    },
+    {
+      "id": 4,
+      "name": "Indian Lunch",
+      "price": 18.99,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/R65yJ7F/lunch4.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "lunch"
+    },
+    {
+      "id": 5,
+      "name": "Beef Steak",
+      "price": 10.99,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/fqCf7Wk/lunch5.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "lunch"
+    },
+    {
+      "id": 6,
+      "name": "Honey-Soy-Glazed Salmon with Peppers",
+      "price": 7.99,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/D1BVdqD/lunch6.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "lunch"
+    },
+    {
+      "id": 7,
+      "name": "Bagel and cream cheese",
+      "price": 7.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/FbcDrpW/breakfast1.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "breakfast"
+    },
+    {
+      "id": 8,
+      "name": "Breakfast Sandwich",
+      "price": 9.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/SvRZdLz/breakfast2.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "breakfast"
+    },
+    {
+      "id": 9,
+      "name": "Baked Chicken",
+      "price": 10.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/kyT2nsL/breakfast3.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "breakfast"
+    },
+    {
+      "id": 10,
+      "name": "Eggs Benedict",
+      "price": 8.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/vDWGbDJ/breakfast4.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "breakfast"
+    },
+    {
+      "id": 11,
+      "name": "Toast Croissant Fried Egg",
+      "price": 19.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/hK59MBk/breakfast5.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "breakfast"
+    },
+    {
+      "id": 12,
+      "name": "Full Breakfast Fried Egg Toast Brunch",
+      "price": 3.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/V2HHhr5/breakfast6.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "breakfast"
+    },
+    {
+      "id": 13,
+      "name": "Salmon with Grapefruit and Lentil Salad",
+      "price": 9.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/87kgDyy/dinner1.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "dinner"
+    },
+    {
+      "id": 14,
+      "name": "Lemony Salmon Piccata",
+      "price": 10.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/JqNrS6K/dinner2.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "dinner"
+    },
+    {
+      "id": 15,
+      "name": "Baked Chicken",
+      "price": 9.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/Ldrbhrc/dinner3.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "dinner"
+    },
+    {
+      "id": 16,
+      "name": "Pork Tenderloin With Quinoa Pilaf",
+      "price": 12.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/1mDvVKL/dinner4.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "dinner"
+    },
+    {
+      "id": 17,
+      "name": "French fries with cheese",
+      "price": 8.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/tZqxMjS/dinner5.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "dinner"
+    },
+    {
+      "id": 18,
+      "name": "Garlic Butter Baked Salmon",
+      "price": 6.95,
+      "description": "How we dream about our future",
+      "img": "https://i.ibb.co/k96hHxP/dinner6.jpg",
+      "ingredients": "Mauris blandit aliquam nisi sed consectetur. Donec eget laoreet orci. Sed consectetur risus nec ante consectetur nec eleifend a diam. Nam eget dui. Etiam porta sem malesuada magna mollis euismod.",
+      "category": "dinner"
+    }
+    
+]

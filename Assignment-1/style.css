@@ -1,0 +1,105 @@
+body {
+    font-family: 'PT Serif', serif;
+    font-size: x-large;
+    margin: 0;
+
+}
+
+
+.green {
+    color: lightgreen;
+}
+
+.gray {
+    color: gray;
+}
+
+.Flex-container {
+    display: flex;
+}
+
+
+.half-width img {
+    width: 90%;
+}
+
+.half-width {
+    padding-left: 50px;
+}
+
+.Link-Button {
+    text-decoration: none;
+    background-image: linear-gradient(green, lightgreen);
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.Top-Section p {
+    color: grey;
+
+}
+
+.About-Section {
+    background-image: url(7.png);
+    color: gray;
+}
+
+.Recipe-Item img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.Recipe-Title {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.Recipe-Title p {
+    font-size: small;
+}
+
+.Recipe-Item {
+    margin: 3%;
+    padding: 20px;
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 50px rgb(238, 229, 229);
+
+}
+
+.Recipe-Item p {
+    font-size: medium;
+
+}
+
+.Recipe-Item:hover {
+    box-shadow: 5px 5px 50px lightpink;
+}
+
+.option {
+    display: flex;
+    box-shadow: 5px 5px 50px rgb(238, 229, 229);
+    margin: 5%;
+
+}
+
+.option-elements {
+    width: 80%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.Footer-Section {
+    background-color: black;
+    color: aliceblue;
+    font-size: small;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    border-radius: 10px;
+}

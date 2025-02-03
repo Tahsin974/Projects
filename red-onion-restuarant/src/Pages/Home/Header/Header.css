@@ -1,0 +1,13 @@
+.header{
+    background-color: oklch(0.97 0.03 88.66);
+    background-image: url('../../../images/bannerbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.search-field{
+    width: 75%;
+}
+.join{
+    width: 100% !important;
+   
+}

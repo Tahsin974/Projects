@@ -1,0 +1,49 @@
+[
+    {
+      "ID": "WD101",
+      "name": "The Complete Web Development Bootcamp 2024",
+      "img": "https://i.ibb.co/C8GsGCp/web-development.jpg",
+      "description": "Master everything from front-end (HTML, CSS, JS) to back-end (Node.js, databases) to become a full-stack developer. Build real projects as you learn! Over 12,500 students have enrolled and launched their web development careers.",
+      "price": 199.99,
+      "rating": 4.8,
+      "sales": 12500
+    },
+    {
+      "ID": "WP100",
+      "name": "WordPress for Beginners: Create a Stunning Website",
+      "img": "https://i.ibb.co/HhwWtgQ/wordpress.jpg",
+      "description": "Learn WordPress basics to build a beautiful website without coding. Customize themes, add plugins, and manage content with ease. Empower over 8,200 beginners to create professional-looking websites.",
+      "price": 49.99,
+      "rating": 4.7,
+      "sales": 8200
+    },
+    {
+      "ID": "FE110",
+      "name": "Front-End Development Fundamentals: HTML, CSS & JavaScript",
+      "img": "https://i.ibb.co/47jTCWX/front-end.jpg",
+      "description": "Gain a solid foundation in web development's core languages: HTML, CSS, and JavaScript. Learn to structure web pages, style them, and add interactivity. Over 3,100 students have built their foundation for a successful front-end development career.",
+      "price": 99.99,
+      "rating": 4.5,
+      "sales": 3100
+    },
+    {
+      "ID": "BE201",
+      "name": "Back-End Development with Node.js & Express",
+      "img": "https://i.ibb.co/9861D9Z/back-end.jpg",
+      "description": "Dive into back-end development using Node.js and Express.js. Build APIs, handle databases, and create dynamic web applications. Nearly 600 developers have chosen this course to boost their back-end skills.",
+      "price": 149.99,
+      "rating": 4.9,
+      "sales": 580
+    },
+    {
+      "ID": "WD302",
+      "name": "The Junior Web Developer Career Path",
+      "img": "https://i.ibb.co/hdYjBVC/junior-dev.jpg",
+      "description": "Launch your web development career with this comprehensive course. Learn essential skills, build a project portfolio, and prepare for job interviews. Equip over 1,000 aspiring developers with the tools they need to land their first web dev job.",
+      "price": 299.99,
+      "rating": 4.3,
+      "sales": 1020
+    }
+    
+]
+  
