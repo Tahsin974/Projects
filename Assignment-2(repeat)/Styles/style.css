@@ -1,0 +1,263 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* Menubar Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 125px;
+    padding-top: 40px;
+    background-color: #2D25A0;
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+    padding-right: 36px;
+}
+nav>ul>li>a:hover{
+    color: #8b0235;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.fa-bars{
+    color: #FFF;
+    cursor: pointer;
+    visibility: hidden;
+}
+.dropdown{
+    position: absolute;
+    overflow: hidden;
+    background-color: #E02C6D;
+}
+.fa-bars>.dropdown>li{
+    list-style: none;
+    padding-bottom: 5px;
+    display: none;
+}
+.fa-bars:active li{
+    display: block;
+}
+.fa-bars>.dropdown>li>a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.fa-bars>li>a:hover{
+    color: #8b0235;
+}
+/* common utilities */
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Football-Banner section Style */
+.football-banner-section{
+    background-color: #2D25A0;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.banner-content{
+    font-family: 'Poppins', sans-serif;
+    padding-right: 102px;
+    padding-bottom: 70px;
+    color: #FFFFFF;
+    padding-left: 130px;
+}
+h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+.link-btn{
+    padding: 10px 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #E02C6D;
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+    padding-right: 130px;
+    
+}
+.anim-left{
+    opacity: 0;
+    transform: translateX(-70px);
+    animation: moveright 1.2s linear forwards;
+}
+@keyframes moveright {
+    100%{
+        opacity: 1;
+    transform: translateX(0px);
+    }
+    
+}
+.anim-right{
+    opacity: 0;
+    transform: translateX(150px);
+    animation: moveleft 1.2s linear forwards;
+}
+@keyframes moveleft {
+    100%{
+        opacity: 1;
+    transform: translateX(0px);
+    }
+    
+}
+/* Top Player Section Style */
+.top-players-section{
+    padding-top: 70px;
+    padding-left: 180px;
+    padding-right: 180px;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 27px;
+    grid-row-gap: 27px;
+}
+.player{
+    height: 474px;
+    width: 330px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.player-image img{
+    height: 256px;
+    width: 300px;
+}
+.player-details{
+    width: 300px;
+}
+.player-name{
+    font-size: 28px;
+    text-align: center;
+}
+.player-info{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #6C6C6C;
+}
+/* Highlights Section Style */
+.match-highlights-section{
+    margin-top: 165px;
+    margin-left: 130px;
+    margin-right: 70px;
+    margin-bottom: 27px;
+}
+.match-details{
+    padding-right: 120px;
+}
+.match-details p{
+    padding-bottom: 20px;
+    height: auto;
+}
+.match-banner-image img{
+    width: 567px;
+    height: 427px;
+}
+/* Footer Style */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 68px;
+    width: 350px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+
+}
+/* Responsive With Media Query */
+/* Responsive For Mobile Device */
+@media only screen and (max-width:688px) {
+    nav{
+        display: none;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .banner-content{
+        padding-left: 15px;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    .banner-image img{
+        height: 260px;
+        width: 300px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .match-highlights-section{
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 50px;
+    }
+    .match-details{
+        padding-bottom: 29px;
+        padding-right: 15px;
+    }
+    .match-details h1{
+        font-size: 39px;
+    }
+    .match-details p{
+        font-size: 20px;
+    }
+    .match-banner-image img{
+        height: 260px;
+        width: 330px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        height: 50%;
+        width: 50%;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-icons img {
+        width: 16px;
+        height: 16px;
+        padding: 0 5px;
+        margin-bottom: 5px;
+
+    } 
+}
